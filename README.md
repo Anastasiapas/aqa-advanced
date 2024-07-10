@@ -1,2 +1,0 @@
-# aqa-advanced
-JS course
