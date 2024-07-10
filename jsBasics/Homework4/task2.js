@@ -4,3 +4,4 @@ const greeting = "Let's welcome " + customerOne + " and his friend " + customerT
 
 console.log(greeting);
 
+let sayHello = `Hi, my name is ${customerOne}`
