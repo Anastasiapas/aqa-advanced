@@ -1,6 +1,6 @@
 let age;
 age = 54;
-
+let isNowAdult= age>=18;
 let isAdult = true;
 let isMinor = false;
 
