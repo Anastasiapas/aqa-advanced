@@ -9,7 +9,7 @@ const car2 = {
     model: "X1",
     year: "2022"
 }
-const car3 ={
+const car3 = {
     car1,
     car2
 }
