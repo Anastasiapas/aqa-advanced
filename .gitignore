@@ -76,3 +76,6 @@ storybook-static/
 # Windows
 Thumbs.db
 /jsBasics/exercise
+
+#Prettier
+.prettierrc
