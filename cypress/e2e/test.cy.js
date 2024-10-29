@@ -1,10 +1,10 @@
 describe("Basic tests", () => {
   beforeEach(() => {
     cy.log("User passed authentication");
-    cy.visit("https://qauto.forstudy.space", {
+    cy.visit((Cypress.env('BASE_URL')), {
       auth: {
-        username: "guest",
-        password: "welcome2qauto",
+        username: Cypress.env("AUTH_USERNAME"),
+        password: Cypress.env("AUTH_PASSWORD"),
       },
     });
   });
